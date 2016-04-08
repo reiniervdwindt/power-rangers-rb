@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://powerapi.blueyes.nl/v1/rangers/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 08 Apr 2016 18:24:27 GMT
+      Server:
+      - Apache/2.2.15 (Red Hat)
+      Vary:
+      - Accept,Cookie,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Red Ranger","color":"red","weapon":{"id":1,"name":"Power
+        Sword","type":"sword"},"zords":[{"id":15,"name":"Red Dragon Thunderzord","type":"thunderzord"},{"id":1,"name":"Tyrannosaurus
+        Dinozord","type":"dinozord"}],"images":[{"url":"http://powerapi.blueyes.nl/static/media/rangers/Mmpr-red.png"}]}'
+    http_version: 
+  recorded_at: Fri, 08 Apr 2016 18:24:27 GMT
+recorded_with: VCR 3.0.1
