@@ -4,22 +4,22 @@ http_interactions:
     method: get
     uri: http://powerapi.blueyes.nl/v1/rangers/1/
     body:
-      encoding: US-ASCII
+      encoding: UTF-8
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.9.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      - HTTPClient/1.0 (2.7.1, ruby 2.0.0 (2015-12-16))
       Accept:
       - '*/*'
+      Date:
+      - Sat, 09 Apr 2016 18:08:52 GMT
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Fri, 08 Apr 2016 18:24:27 GMT
+      - Sat, 09 Apr 2016 18:08:53 GMT
       Server:
       - Apache/2.2.15 (Red Hat)
       Vary:
@@ -38,5 +38,5 @@ http_interactions:
         Sword","type":"sword"},"zords":[{"id":15,"name":"Red Dragon Thunderzord","type":"thunderzord"},{"id":1,"name":"Tyrannosaurus
         Dinozord","type":"dinozord"}],"images":[{"url":"http://powerapi.blueyes.nl/static/media/rangers/Mmpr-red.png"}]}'
     http_version: 
-  recorded_at: Fri, 08 Apr 2016 18:24:27 GMT
+  recorded_at: Sat, 09 Apr 2016 18:08:53 GMT
 recorded_with: VCR 3.0.1

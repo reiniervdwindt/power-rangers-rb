@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://powerapi.blueyes.nl/v1/weapons/1/
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.7.1, ruby 2.0.0 (2015-12-16))
+      Accept:
+      - '*/*'
+      Date:
+      - Sat, 09 Apr 2016 18:08:53 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 09 Apr 2016 18:08:53 GMT
+      Server:
+      - Apache/2.2.15 (Red Hat)
+      Vary:
+      - Accept,Cookie,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Power Sword","type":"sword","ranger":{"id":1,"name":"Red
+        Ranger","color":"red"},"images":[{"url":"http://powerapi.blueyes.nl/static/media/weapons/Power_Sword.jpg"}]}'
+    http_version: 
+  recorded_at: Sat, 09 Apr 2016 18:08:53 GMT
+recorded_with: VCR 3.0.1
